@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &192226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456302}
+  - component: {fileID: 11423138}
+  m_Layer: 0
+  m_Name: GamePlayScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.77541, y: 40.0228, z: 37.28822}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11423138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4cae13aecc53543bdd2963b2aa060c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infrastructureParent: {fileID: 0}
+  friendInfrastructureParent: {fileID: 0}
+  trafficNPediContainer: {fileID: 0}
+  tempConstructionTime: 5
+  tempIssueFixTime: 5
+  powerToIncrease: 40
+  totalPower: 0
+  powerConsumed: 0
+  fixRewardCoins: 0
+  camListner: {fileID: 0}
+  camEventListner: {fileID: 0}
+  petalCoinsTxt:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  playerCursor: {fileID: 0}
+  coin: {fileID: 8648319170716314172, guid: f17c2fb4a03d05f42a657041337b0a78, type: 3}
+  constructionModel:
+  - {fileID: 9104434823398401946, guid: 6cd0c4c24c012a8459cf52e961a864f9, type: 3}
+  - {fileID: 9104434823398401946, guid: 6cd0c4c24c012a8459cf52e961a864f9, type: 3}
+  - {fileID: 9104434823398401946, guid: 08c4085db6d364786b3ecda5fcdb014c, type: 3}
+  - {fileID: 9104434823398401946, guid: 83dc0f5ae1896f048aa2e99d2ed7db65, type: 3}
+  - {fileID: 9104434823398401946, guid: 08c4085db6d364786b3ecda5fcdb014c, type: 3}
+  - {fileID: 9104434823398401946, guid: 08c4085db6d364786b3ecda5fcdb014c, type: 3}
+  - {fileID: 9104434823398401946, guid: 08c4085db6d364786b3ecda5fcdb014c, type: 3}
+  petalLightEffect:
+  - {fileID: 4930078349918183013, guid: 26cbf0bd494570642afd2eb35b94dc3a, type: 3}
+  - {fileID: 6943887255967579186, guid: dd6e7ad93c86fd74a9905c56ac7581e3, type: 3}
+  - {fileID: 1285041166114974881, guid: 50ef124b6234df344bc33071b65f596b, type: 3}
+  petalCoinsBtn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fixTimer: {fileID: 4882768161842868225, guid: 492547aafb7548f4993cb49d05b54473,
+    type: 3}
+  mindsphereEffectMovPoint: {fileID: 0}
+  mindSphereEffect: {fileID: 0}
+  activePowerEffect: {fileID: 0}
+  petalPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fireworksEffect: {fileID: 5697064722720670024, guid: 145b4650856798147b0068e2c016d4b0,
+    type: 3}
+  powerEffect:
+  - {fileID: 1953527736519389486, guid: 72842eecc825af34dbc7c5375f3fb4a5, type: 3}
+  - {fileID: 6471603845201118529, guid: 1e4b202d29debfd4ba2d50c4011d8e51, type: 3}
+  - {fileID: 6471603845201118529, guid: 8dd60e6e9a05fd943b87a99061fe9028, type: 3}
+  sipass1Tex:
+  - {fileID: 2800000, guid: 97ff95b3ff34feb438a397b5123672c4, type: 3}
+  - {fileID: 2800000, guid: 33d49e2d89f23e646a57534fb56bc017, type: 3}
+  - {fileID: 2800000, guid: 2181dedd9bbb8474f8e26332b83c4a31, type: 3}
+  sipass2_3Tex:
+  - {fileID: 2800000, guid: 92c0c3594e544ac45a64288e6f6d5612, type: 3}
+  - {fileID: 2800000, guid: 5c2eb3d121f24be4aa4d6ec775e065e2, type: 3}
+  - {fileID: 2800000, guid: 6a9829a9d00f00248a05316a3b2ebb1a, type: 3}
+  sipass1DefTex: {fileID: 2800000, guid: a923b52d44a05ca418be417fae355b7b, type: 3}
+  sipass2_3DefTex: {fileID: 2800000, guid: 03e63706f4ffdbb4eb0bce77a1b755bf, type: 3}
+  sipassEnvBuildings:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

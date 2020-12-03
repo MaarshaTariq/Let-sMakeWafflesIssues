@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f2069b2baeb1b4a2e97a66e26df202fe
+timeCreated: 1515732939
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Highway Gothic Condensed
+  fontNames:
+  - Highway Gothic Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 44663eea3ae4e4d02b1dfed742dd2880
+timeCreated: 1515732939
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Highway Gothic Wide
+  fontNames:
+  - Highway Gothic Wide
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
